@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".untukfragment">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.tugas1_elfaulilalbab_morninga.fragmen1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/btn_fragment11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/butonshape"
+        android:backgroundTint="#21224C"
+        android:gravity="center"
+        android:text="fragment 1 "
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_fragment22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/butonshape"
+        android:backgroundTint="#21224C"
+        android:gravity="center"
+        android:text="fragment 2 "
+        android:textColor="@color/white" />
+</LinearLayout>
